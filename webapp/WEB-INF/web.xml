@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+    <display-name>HelloWorld Application</display-name>
+
+    <servlet>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-class>ru.academits.nekrasovgleb.helloworld.HelloWorld</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>ru.academits.nekrasovgleb.helloworld.Registration</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <url-pattern>/helloWorld</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/registration</url-pattern>
+    </servlet-mapping>
+</web-app>
